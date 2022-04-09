@@ -1,0 +1,22 @@
+We throw a smartphone in the sea, the phone hits the sea and comes up and
+hits the sea <n> times and in nth time it will no longer comes up.
+
+if we throw the smartphone <d> meter, each time the phone hits the sea and
+comes up travel <d/2> of previous time.
+hint : T = d+(d/2)+(d/4)...
+
+if in the end (when smartphone sank!) the smartphone move <T> meters and we know
+how many times smartphone hits water calculate <d>!
+
+we give the program total distance(T) and hit times(n), program should calculate
+the distance that we throw the smartphone(d)!
+
+Sample input:
+7 2
+Output:
+4.6667
+
+Sample input:
+15 7
+Output:
+7.5591
